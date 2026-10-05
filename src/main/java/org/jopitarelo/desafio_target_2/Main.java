@@ -1,9 +1,9 @@
-package org.jopitarelo.desafio_target_1;
+package org.jopitarelo.desafio_target_2;
 
-import org.jopitarelo.desafio_target_1.models.Movimentacao;
-import org.jopitarelo.desafio_target_1.models.Produto;
-import org.jopitarelo.desafio_target_1.models.TipoMovimentacao;
-import org.jopitarelo.desafio_target_1.services.EstoqueService;
+import org.jopitarelo.desafio_target_2.models.Movimentacao;
+import org.jopitarelo.desafio_target_2.models.Produto;
+import org.jopitarelo.desafio_target_2.models.TipoMovimentacao;
+import org.jopitarelo.desafio_target_2.services.EstoqueService;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -43,8 +43,7 @@ public class Main {
 
     private static void listarProdutos(EstoqueService service) {
         for (Produto p : service.listarProdutos()) {
-            System.out.printf("%d - %s (estoque: %d)%n",
-                    p.getCodigoProduto(), p.getDescricaoProduto(), p.getEstoque());
+            System.out.printf("%d - %s (estoque: %d)%n", p.getCodigoProduto(), p.getDescricaoProduto(), p.getEstoque());
         }
     }
 

@@ -1,9 +1,9 @@
-package org.jopitarelo.desafio_target_1.services;
+package org.jopitarelo.desafio_target_2.services;
 
-import org.jopitarelo.desafio_target_1.models.ArquivoEstoque;
-import org.jopitarelo.desafio_target_1.models.Movimentacao;
-import org.jopitarelo.desafio_target_1.models.Produto;
-import org.jopitarelo.desafio_target_1.models.TipoMovimentacao;
+import org.jopitarelo.desafio_target_2.models.ArquivoEstoque;
+import org.jopitarelo.desafio_target_2.models.Movimentacao;
+import org.jopitarelo.desafio_target_2.models.Produto;
+import org.jopitarelo.desafio_target_2.models.TipoMovimentacao;
 
 import tools.jackson.databind.json.JsonMapper;
 
